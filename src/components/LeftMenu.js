@@ -129,27 +129,27 @@ const LeftMenu = () => {
           </ListItemLink>
         </List>
         <List >
-            <ListItemLink href="voteaz/VotingInElections">
+            <ListItemLink href="/voteaz/VotingInElections">
             <ListItemText primary="Voting in Elections" />
           </ListItemLink>
         </List>
         <List >
-            <ListItemLink href="voteaz/CongressionalDistricts">
+            <ListItemLink href="/voteaz/CongressionalDistricts">
             <ListItemText primary="Congressional Districts" />
           </ListItemLink>
         </List>
         <List >
-            <ListItemLink href="voteaz/LegislativeDistricts">
+            <ListItemLink href="/voteaz/LegislativeDistricts">
             <ListItemText primary="Legislative Districts" />
           </ListItemLink>
         </List>
         <List >
-            <ListItemLink href="voteaz/StateJudicialCandidates">
+            <ListItemLink href="/voteaz/StateJudicialCandidates">
             <ListItemText primary="State Judicial Candidates" />
           </ListItemLink>
         </List>
         <List >
-            <ListItemLink href="voteaz/USsenate">
+            <ListItemLink href="/voteaz/USsenate">
             <ListItemText primary="US Senate" />
           </ListItemLink>
         </List>

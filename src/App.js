@@ -24,12 +24,12 @@ class App extends Component {
             <Switch>
               {/* USERS */}
               <Route exact path="/voteaz/" component={ Splash }/>
-              <Route exact path="/voteaz/CongressionalDistricts" component={ CongressionalDistricts }/>
-              <Route exact path="/voteaz/ElectionDates" component={ ElectionDates }/>
-              <Route exact path="/voteaz/LegislativeDistricts" component={ LegislativeDistricts }/>
-              <Route exact path="/voteaz/StateJudicialCandidates" component={ StateJudicialCandidates }/>
-              <Route exact path="/voteaz/UsSenate" component={ UsSenate }/>
-              <Route exact path="/voteaz/VotingInElections" component={ VotingInElections }/>
+              <Route path="/voteaz/CongressionalDistricts" component={ CongressionalDistricts }/>
+              <Route path="/voteaz/ElectionDates" component={ ElectionDates }/>
+              <Route path="/voteaz/LegislativeDistricts" component={ LegislativeDistricts }/>
+              <Route path="/voteaz/StateJudicialCandidates" component={ StateJudicialCandidates }/>
+              <Route path="/voteaz/UsSenate" component={ UsSenate }/>
+              <Route path="/voteaz/VotingInElections" component={ VotingInElections }/>
             </Switch>
           </div>
         </Router>
