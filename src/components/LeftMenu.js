@@ -124,32 +124,32 @@ const LeftMenu = () => {
           </IconButton>
         </div>
         <List >
-            <ListItemLink href="ElectionDates">
+            <ListItemLink href="/voteaz/ElectionDates">
             <ListItemText primary="Election Dates" />
           </ListItemLink>
         </List>
         <List >
-            <ListItemLink href="VotingInElections">
+            <ListItemLink href="voteaz/VotingInElections">
             <ListItemText primary="Voting in Elections" />
           </ListItemLink>
         </List>
         <List >
-            <ListItemLink href="CongressionalDistricts">
+            <ListItemLink href="voteaz/CongressionalDistricts">
             <ListItemText primary="Congressional Districts" />
           </ListItemLink>
         </List>
         <List >
-            <ListItemLink href="LegislativeDistricts">
+            <ListItemLink href="voteaz/LegislativeDistricts">
             <ListItemText primary="Legislative Districts" />
           </ListItemLink>
         </List>
         <List >
-            <ListItemLink href="StateJudicialCandidates">
+            <ListItemLink href="voteaz/StateJudicialCandidates">
             <ListItemText primary="State Judicial Candidates" />
           </ListItemLink>
         </List>
         <List >
-            <ListItemLink href="USsenate">
+            <ListItemLink href="voteaz/USsenate">
             <ListItemText primary="US Senate" />
           </ListItemLink>
         </List>
