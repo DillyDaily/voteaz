@@ -19,17 +19,17 @@ class App extends Component {
     return (
       <div className="App"> 
        <LeftMenu />
-        <Router>
+        <Router basename="voteaz">
           <div>
             <Switch>
               {/* USERS */}
-              <Route exact path="/voteaz/" component={ Splash }/>
-              <Route path="/voteaz/CongressionalDistricts" component={ CongressionalDistricts }/>
-              <Route path="/voteaz/ElectionDates" component={ ElectionDates }/>
-              <Route path="/voteaz/LegislativeDistricts" component={ LegislativeDistricts }/>
-              <Route path="/voteaz/StateJudicialCandidates" component={ StateJudicialCandidates }/>
-              <Route path="/voteaz/UsSenate" component={ UsSenate }/>
-              <Route path="/voteaz/VotingInElections" component={ VotingInElections }/>
+              <Route exact path="/" component={ Splash }/>
+              <Route path="/CongressionalDistricts" component={ CongressionalDistricts }/>
+              <Route path="/ElectionDates" component={ ElectionDates }/>
+              <Route path="/LegislativeDistricts" component={ LegislativeDistricts }/>
+              <Route path="/StateJudicialCandidates" component={ StateJudicialCandidates }/>
+              <Route path="/UsSenate" component={ UsSenate }/>
+              <Route path="/VotingInElections" component={ VotingInElections }/>
             </Switch>
           </div>
         </Router>
