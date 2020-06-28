@@ -13,13 +13,11 @@ import VotingInElections from './components/VotingInElections';
 /* eslint-disable */
 
 
-class App extends Component {
-
-  render() {
+export default function App() {
     return (
       <div className="App"> 
        <LeftMenu />
-        <Router basename="voteaz">
+        {/* <Router basename="voteaz"> */}
           <div>
             <Switch>
               <Route exact path="/" component={ Splash }/>
@@ -31,12 +29,8 @@ class App extends Component {
               <Route path="/VotingInElections" component={ VotingInElections }/>
             </Switch>
           </div>
-        </Router>
+        {/* </Router> */}
       </div>
     );
   }
-}
-
-export default App;
-
 
