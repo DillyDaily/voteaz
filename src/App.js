@@ -23,13 +23,13 @@ class App extends Component {
           <div>
             <Switch>
               {/* USERS */}
-              <Route exact path="/" component={ Splash }/>
-              <Route exact path="/CongressionalDistricts" component={ CongressionalDistricts }/>
-              <Route exact path="/ElectionDates" component={ ElectionDates }/>
-              <Route exact path="/LegislativeDistricts" component={ LegislativeDistricts }/>
-              <Route exact path="/StateJudicialCandidates" component={ StateJudicialCandidates }/>
-              <Route exact path="/UsSenate" component={ UsSenate }/>
-              <Route exact path="/VotingInElections" component={ VotingInElections }/>
+              <Route exact path="/voteaz/" component={ Splash }/>
+              <Route exact path="/voteaz/CongressionalDistricts" component={ CongressionalDistricts }/>
+              <Route exact path="/voteaz/ElectionDates" component={ ElectionDates }/>
+              <Route exact path="/voteaz/LegislativeDistricts" component={ LegislativeDistricts }/>
+              <Route exact path="/voteaz/StateJudicialCandidates" component={ StateJudicialCandidates }/>
+              <Route exact path="/voteaz/UsSenate" component={ UsSenate }/>
+              <Route exact path="/voteaz/VotingInElections" component={ VotingInElections }/>
             </Switch>
           </div>
         </Router>
