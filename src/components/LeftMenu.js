@@ -105,7 +105,12 @@ const LeftMenu = () => {
             <Menu />
           </IconButton>
           <Typography variant="h6" noWrap>
-            VOTE AZ
+          <List >
+            <ListItemLink href="/voteaz/">
+            <ListItemText primary="VOTE AZ" />
+          </ListItemLink>
+        </List>
+            {/* VOTE AZ */}
           </Typography>
         </Toolbar>
       </AppBar>
@@ -170,14 +175,6 @@ const LeftMenu = () => {
       >
         <div className={classes.drawerHeader} />
       </main>
-        <a
-            className="App-link"
-            href="https://www.azcleanelections.gov/arizona-elections"
-            target="_blank"
-            rel="noopener noreferrer"
-            >
-            Upcoming Elections
-        </a>
     </div>
     );
 }

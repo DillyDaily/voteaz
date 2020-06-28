@@ -11,14 +11,15 @@ import StateJudicialCandidates from './components/StateJudicialCandidates';
 import UsSenate from './components/UsSenate';
 import VotingInElections from './components/VotingInElections';
 /* eslint-disable */
-
+import CssBaseline from '@material-ui/core/CssBaseline';
+import Container from '@material-ui/core/Container';
 
 export default function App() {
     return (
       <div className="App"> 
        <LeftMenu />
-        {/* <Router basename="voteaz"> */}
-          <div>
+       <CssBaseline />
+          <Container maxWidth="lg">
             <Switch>
               <Route exact path="/" component={ Splash }/>
               <Route path="/CongressionalDistricts" component={ CongressionalDistricts }/>
@@ -28,8 +29,7 @@ export default function App() {
               <Route path="/UsSenate" component={ UsSenate }/>
               <Route path="/VotingInElections" component={ VotingInElections }/>
             </Switch>
-          </div>
-        {/* </Router> */}
+          </Container>
       </div>
     );
   }
