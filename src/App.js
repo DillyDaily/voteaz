@@ -22,7 +22,6 @@ class App extends Component {
         <Router basename="voteaz">
           <div>
             <Switch>
-              {/* USERS */}
               <Route exact path="/" component={ Splash }/>
               <Route path="/CongressionalDistricts" component={ CongressionalDistricts }/>
               <Route path="/ElectionDates" component={ ElectionDates }/>
