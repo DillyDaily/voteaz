@@ -4,7 +4,7 @@ const Splash = () => {
   
   return (
     <div>
-      splish splash wish i were taking a bath
+      SPLASH SPLISH SPLUSH
     </div>
     );
 }
