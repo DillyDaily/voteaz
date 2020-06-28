@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/voteaz/static/css/main.f5aa22de.chunk.css",
-    "main.js": "/voteaz/static/js/main.2f00f693.chunk.js",
-    "main.js.map": "/voteaz/static/js/main.2f00f693.chunk.js.map",
+    "main.js": "/voteaz/static/js/main.65d5b52f.chunk.js",
+    "main.js.map": "/voteaz/static/js/main.65d5b52f.chunk.js.map",
     "runtime-main.js": "/voteaz/static/js/runtime-main.c7bc3207.js",
     "runtime-main.js.map": "/voteaz/static/js/runtime-main.c7bc3207.js.map",
     "static/js/2.7f842204.chunk.js": "/voteaz/static/js/2.7f842204.chunk.js",
     "static/js/2.7f842204.chunk.js.map": "/voteaz/static/js/2.7f842204.chunk.js.map",
     "index.html": "/voteaz/index.html",
-    "precache-manifest.f495ae00284741d9b8d26d7b749f3eb9.js": "/voteaz/precache-manifest.f495ae00284741d9b8d26d7b749f3eb9.js",
+    "precache-manifest.eb51fb3bf12167d37fcbe4f8fa801c9a.js": "/voteaz/precache-manifest.eb51fb3bf12167d37fcbe4f8fa801c9a.js",
     "service-worker.js": "/voteaz/service-worker.js",
     "static/css/main.f5aa22de.chunk.css.map": "/voteaz/static/css/main.f5aa22de.chunk.css.map",
     "static/js/2.7f842204.chunk.js.LICENSE.txt": "/voteaz/static/js/2.7f842204.chunk.js.LICENSE.txt"
@@ -17,6 +17,6 @@
     "static/js/runtime-main.c7bc3207.js",
     "static/js/2.7f842204.chunk.js",
     "static/css/main.f5aa22de.chunk.css",
-    "static/js/main.2f00f693.chunk.js"
+    "static/js/main.65d5b52f.chunk.js"
   ]
 }
