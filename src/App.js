@@ -19,7 +19,7 @@ export default function App() {
       <div className="App"> 
        <LeftMenu />
        <CssBaseline />
-          <Container maxWidth="lg">
+          <Container maxWidth="md">
             <Switch>
               <Route exact path="/" component={ Splash }/>
               <Route path="/CongressionalDistricts" component={ CongressionalDistricts }/>

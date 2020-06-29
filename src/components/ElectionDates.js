@@ -9,7 +9,7 @@ const useStyles = makeStyles((theme) => ({
     },
     paper: {
         padding: theme.spacing(2),
-        textAlign: 'left',
+        textAlign: 'center',
         whiteSpace: 'nowrap',
         marginBottom: theme.spacing(2),
     },
@@ -28,7 +28,7 @@ const [spacing, setSpacing] = React.useState(6);
     setSpacing(Number(event.target.value));
   };
     return (
-        <Grid container className={classes.root} spacing={1}>
+        <Grid container className={classes.root} spacing={1} style={{ backgroundColor: '#f5f5f5' }}>
                 <h2>
                     <a
                         className="App-link"
@@ -36,31 +36,31 @@ const [spacing, setSpacing] = React.useState(6);
                         target="_blank"
                         rel="noopener noreferrer"
                         >
-                        Election Dates
+                        Election Calendar 2020
                     </a>
                 </h2>
                     <Grid item xs={12}>
-                        <Grid container justify="left" spacing={spacing}>
+                        <Grid container spacing={spacing}>
                         {/* {[0, 1, 2].map((value) => ( */}
                             <Grid key={0} item>
-                            <Paper className={classes.paper}>
+                            {/* <Paper className={classes.paper}> */}
                                 <h3>Election Date</h3>
                                 <h4>Primary Election</h4>
                                 <p>Tuesday, August 4, 2020</p>
                                 
                                 <h4>General Election</h4>
                                 <p>Tuesday, November 3, 2020</p>
-                            </Paper>
+                            {/* </Paper> */}
                             </Grid>
                             <Grid key={1} item>
-                            <Paper className={classes.paper}>
+                            {/* <Paper className={classes.paper}> */}
                                 <h3>Voter Registration Deadlines</h3>
                                 <h4>Primary Election</h4>
                                 <p>Monday, July 6, 2020</p>
                                 
                                 <h4>General Election</h4>
                                 <p>Monday, October 5, 2020</p>
-                            </Paper>
+                            {/* </Paper> */}
                             </Grid>
                         </Grid>
                     </Grid>
