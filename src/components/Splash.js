@@ -3,6 +3,10 @@ import { Grid, Paper } from '@material-ui/core';
 import { makeStyles } from '@material-ui/core/styles';
 import ElectionDates from './ElectionDates';
 import VotingInElections from './VotingInElections';
+import LegislativeDistricts from './LegislativeDistricts';
+import StateJudicialCandidates from './StateJudicialCandidates';
+import CongressionalDistricts from './CongressionalDistricts';
+import USsenate from './UsSenate';
 
 const useStyles = makeStyles((theme) => ({
   root: {
@@ -39,6 +43,10 @@ const Splash = () => {
         </Grid>
         <ElectionDates />
         <VotingInElections />
+        <StateJudicialCandidates />
+        <LegislativeDistricts />
+        <CongressionalDistricts />
+        <USsenate />
       </Grid>
     </div>
   );

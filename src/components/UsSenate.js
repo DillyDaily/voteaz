@@ -1,9 +1,62 @@
 import React from 'react';
+import { makeStyles } from '@material-ui/core/styles';
+import Grid from '@material-ui/core/Grid';
+    
+const useStyles = makeStyles((theme) => ({
+    root: {
+        flexGrow: 1,
+    },
+    paper: {
+        padding: theme.spacing(2),
+        textAlign: 'center',
+        whiteSpace: 'nowrap',
+        marginBottom: theme.spacing(2),
+    },
+    control: {
+        padding: theme.spacing(2),
+    },
+    }));
+    
 
-const UsSenate = () => {
+const USsenate = () => {
+
+const [spacing, setSpacing] = React.useState(6);
+    const classes = useStyles();
+
+    const handleChange = (event) => {
+    setSpacing(Number(event.target.value));
+    };
     return (
-        <div>US Senate</div>
+        <Grid container className={classes.root} spacing={1} style={{ backgroundColor: '#f5f5f5' }}>
+                <h2>
+                    <a
+                        className="App-link"
+                        href="http://www.senate.gov/states/AZ/intro.htm"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        >
+                        US Senate
+                    </a>
+                </h2>
+                    <Grid item xs={12}>
+                        <Grid container spacing={spacing}>
+                            <Grid key={0} item>
+                                {/* <h3>Click on the district below for election information specific to that district. </h3>
+                                <p>
+                                    <a
+                                        className="App-link"
+                                        href="#"
+                                        target="_blank"
+                                        rel="noopener noreferrer"
+                                        >
+                                        LD1
+                                    </a>
+                                </p> */}
+                            </Grid>
+                        </Grid>
+                    </Grid>
+            </Grid>
     );
 }
-
-export default UsSenate
+    
+export default USsenate
