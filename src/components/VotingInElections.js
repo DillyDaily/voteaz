@@ -42,14 +42,16 @@ const [spacing, setSpacing] = React.useState(6);
                         <Grid container spacing={spacing}>
                             <Grid key={0} item>
                                 <h3>Helpful links for navigating the 2020 Election</h3>
-                                <a
-                                    className="App-link"
-                                    href="https://servicearizona.com/VoterRegistration/selectLanguage"
-                                    target="_blank"
-                                    rel="noopener noreferrer"
-                                    >
-                                    Register to vote
-                                </a>
+                                <p>
+                                    <a
+                                        className="App-link"
+                                        href="https://servicearizona.com/VoterRegistration/selectLanguage"
+                                        target="_blank"
+                                        rel="noopener noreferrer"
+                                        >
+                                        Register to Vote
+                                    </a>
+                                </p>
                                 <p> 
                                     <a
                                     className="App-link"
@@ -57,9 +59,50 @@ const [spacing, setSpacing] = React.useState(6);
                                     target="_blank"
                                     rel="noopener noreferrer"
                                     >
-                                    check/edit your voter registration status
+                                    Check/Edit Your Voter Registration Status
                                     </a>
                                 </p>
+                                <p>
+                                    <a
+                                        className="App-link"
+                                        href="https://my.arizona.vote/AbsenteeTracker.aspx"
+                                        target="_blank"
+                                        rel="noopener noreferrer"
+                                        >
+                                        Check Your Mailed Ballot Status
+                                    </a>
+                                </p>
+                                <p>
+                                    <a
+                                        className="App-link"
+                                        href="https://my.arizona.vote/UOCAVA2/default.aspx"
+                                        target="_blank"
+                                        rel="noopener noreferrer"
+                                        >
+                                        Uniformed and Overseas Citizen Portal
+                                    </a>
+                                </p>
+                                <p>
+                                    <a
+                                        className="App-link"
+                                        href="https://azsos.gov/county-election-info"
+                                        target="_blank"
+                                        rel="noopener noreferrer"
+                                        >
+                                        Contact Info for County Election Officials
+                                    </a>
+                                </p>
+                                <p>
+                                    <a
+                                        className="App-link"
+                                        href="https://azsos.gov/elections/voting-election/voting-equipment"
+                                        target="_blank"
+                                        rel="noopener noreferrer"
+                                        >
+                                        Questions About Voting Equipment Being Used?
+                                    </a>
+                                </p>
+                                
                                 
                             </Grid>
                         </Grid>
