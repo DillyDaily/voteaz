@@ -158,15 +158,15 @@ const LeftMenu = () => {
             <ListItemText primary="US Senate" />
           </ListItemLink>
         </List>
-        <Divider />
-        <List>
-          {['Books', 'Videos', 'Podcasts', 'Biz to Support'].map((text, index) => (
-            <ListItem button key={text}>
+        {/* <Divider /> */}
+        {/* <List> */}
+          {/* {['Books', 'Videos', 'Podcasts', 'Biz to Support'].map((text, index) => ( */}
+            {/* <ListItem button key={text}> */}
               {/* <ListItemIcon>{index % 2 === 0 ? <Inbox /> : <Mail />}</ListItemIcon> */}
-              <ListItemText primary={text} />
-            </ListItem>
-          ))}
-        </List>
+              {/* <ListItemText primary={text} /> */}
+            {/* </ListItem> */}
+          {/* ))} */}
+        {/* </List> */}
       </Drawer>
       <main
         className={clsx(classes.content, {
