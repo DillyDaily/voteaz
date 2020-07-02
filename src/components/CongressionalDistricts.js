@@ -35,7 +35,7 @@ const [spacing, setSpacing] = React.useState(6);
                         target="_blank"
                         rel="noopener noreferrer"
                         >
-                        Find your Arizona Federal Congressional District
+                        Find Your Arizona Federal Congressional District
                     </a>
                 </h2>
                     <Grid item xs={12}>
