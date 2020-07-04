@@ -19,7 +19,6 @@ const useStyles = makeStyles((theme) => ({
         padding: theme.spacing(2),
         textAlign: 'center',
         whiteSpace: 'nowrap',
-        marginBottom: theme.spacing(2),
     },
     control: {
         padding: theme.spacing(2),
@@ -30,16 +29,16 @@ const useStyles = makeStyles((theme) => ({
     }));
     
 
-    function createData(name, office, website, email, facebook, twitter, webhref, fbhref) {
-        return { name, office, website, email, facebook, twitter, webhref, fbhref };
+    function createData(name, website, email, facebook, twitter, webhref, fbhref) {
+        return { name, website, email, facebook, twitter, webhref, fbhref };
       }
 
     const ld1rows = [
-        createData('Martha McSally (R)', 'Senate', 'Martha McSally', 'Not Listed', 'Facebook', '@MarthaMcSally', 'https://www.mcsallyforsenate.com/', 'https://www.facebook.com/MarthaMcSally' ),
-        createData('Daniel McCarthy (R)', 'Senate', 'Daniel McCarthy', 'Not Listed', 'Facebook', '@DemandDanielAZ', 'https://demanddaniel.com/', 'https://www.facebook.com/DemandDanielAZ/'),
-        createData('Mark Kelly (D)', 'Senate', 'Mark Kelly', 'Not Listed', 'Facebook', '@CaptMarkKelly', 'https://markkelly.com/', 'https://www.facebook.com/CaptMarkKelly'),
-        createData('Brandon Garcia (D)', 'Senate', 'Not Listed', 'heirhawkeye@gmail.com', 'Not Listed', 'Not Listed'),
-        createData('Alan White (LBT)', 'Senate', 'Not Listed', ' info@nomoretweedles.com', 'Not Listed', 'Not Listed'),
+        createData('Martha McSally (R)', 'Martha McSally', 'Not Listed', 'Facebook', '@MarthaMcSally', 'https://www.mcsallyfom/', 'https://www.facebook.com/MarthaMcSally' ),
+        createData('Daniel McCarthy (R)', 'Daniel McCarthy', 'Not Listed', 'Facebook', '@DemandDanielAZ', 'https://demanddaniel.com/', 'https://www.facebook.com/DemandDanielAZ/'),
+        createData('Mark Kelly (D)', 'Mark Kelly', 'Not Listed', 'Facebook', '@CaptMarkKelly', 'https://markkelly.com/', 'https://www.facebook.com/CaptMarkKelly'),
+        createData('Brandon Garcia (D)', 'Not Listed', 'heirhawkeye@gmail.com', 'Not Listed', 'Not Listed'),
+        createData('Alan White (LBT)', 'Not Listed', ' info@nomoretweedles.com', 'Not Listed', 'Not Listed'),
     ];
     
 
@@ -52,7 +51,7 @@ const [spacing, setSpacing] = React.useState(6);
     setSpacing(Number(event.target.value));
     };
     return (
-        <Grid container className={classes.root} spacing={1} style={{ backgroundColor: '#f5f5f5' }}>
+        <Grid container className={classes.root} spacing={1}>
                 <h2>
                     <a
                         className="App-link"
@@ -68,7 +67,6 @@ const [spacing, setSpacing] = React.useState(6);
                         <TableHead>
                         <TableRow>
                             <TableCell align="left">Name</TableCell>
-                            <TableCell align="left">Office</TableCell>
                             <TableCell align="left">Website</TableCell>
                             <TableCell align="left">Email</TableCell>
                             <TableCell align="left">Facebook</TableCell>
@@ -79,7 +77,6 @@ const [spacing, setSpacing] = React.useState(6);
                         {ld1rows.map((row) => (
                             <TableRow key={row.name}>
                             <TableCell component="th" scope="row">{row.name}</TableCell>
-                            <TableCell align="left">{row.office}</TableCell>
                             <TableCell align="left">
                                 <a
                                     className="App-link"

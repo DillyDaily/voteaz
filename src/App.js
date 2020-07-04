@@ -19,7 +19,7 @@ export default function App() {
     return (
       <div className="App"> 
        <LeftMenu />
-       <CssBaseline />
+       {/* <CssBaseline /> */}
           <Container maxWidth="md">
             <Switch>
               <Route exact path="/" component={ Splash }/>

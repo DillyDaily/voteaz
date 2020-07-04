@@ -85,7 +85,7 @@ const [spacing, setSpacing] = React.useState(6);
     setSpacing(Number(event.target.value));
     };
     return (
-        <Grid container className={classes.root} spacing={1} style={{ backgroundColor: '#f5f5f5' }}>
+        <Grid container className={classes.root} spacing={1}>
                 <h2>
                     <a
                         className="App-link"

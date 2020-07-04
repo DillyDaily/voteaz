@@ -33,21 +33,20 @@ const Splash = () => {
   };
 
   return (
-    <div>
-      <h1>Let's vote!</h1>
-      <h2>Arizona Election / Voting Resources </h2>
-      <p>Election content curated by Gus Miranda</p>
-      <Grid container className={classes.root} spacing={1}>
-        <Grid item xs={12}>
-          
+    <div className="Splash">
+      <div >
+        <h1>Let's vote!</h1>
+        <h2>Arizona Election / Voting Resources </h2>
+        <p>Election content curated by Gus Miranda</p>
+      </div>
+        <Grid container className={classes.root} spacing={1}>
+          <ElectionDates />
+          <VotingInElections />
+          <StateJudicialCandidates />
+          <LegislativeDistricts />
+          <CongressionalDistricts />
+          <USsenate />
         </Grid>
-        <ElectionDates />
-        <VotingInElections />
-        <StateJudicialCandidates />
-        <LegislativeDistricts />
-        <CongressionalDistricts />
-        <USsenate />
-      </Grid>
     </div>
   );
 }
